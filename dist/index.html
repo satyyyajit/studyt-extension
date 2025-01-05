@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>StudYT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-300 dark:bg-zinc-950 text-white min-h-screen flex flex-col justify-between max-w-lg " style="height: 400px; width: 400px;">
+    
+    <nav class="text-center border-b border-zinc-900 p-4">
+        <h1 class="text-2xl font-bold">StudYT</h1>
+    </nav>
+    <main class="flex-grow flex items-center justify-center p-4 mt-10">
+        <div class="text-center">
+            <h1 class="px-10 font-bold text-xl md:text-xl sm:text-lg">
+                Click to remove all the distractions and focus on your study.
+            </h1>
+            <button id="start"
+                class="border-2 rounded-md border-zinc-800 dark:bg-zinc-950 text-sm font-semibold bg-gray-300 dark:text-white px-5 py-2 mt-4 hover:bg-gray-400 dark:hover:bg-zinc-900 transition-transform duration-300 transform hover:scale-101"
+                aria-label="Start distraction-free mode">
+                Start
+            </button>
+        </div>
+    </main>
+    <div class="h-full border-b border-zinc-900 "></div>
+    <footer class="bg-gray-300 dark:bg-zinc-950 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <p><span id="year"></span> StudYT</p>
+            <p>Project by <a href="https://github.com/satyyyajit" class="text-blue-500">satyyyajit</a></p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
